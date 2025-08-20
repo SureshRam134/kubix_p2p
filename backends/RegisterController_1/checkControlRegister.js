@@ -7,6 +7,6 @@ export const checkRegister = async (req, res, next) => {
         return res.status(400).json({error:"Email and password and phone are requiers"})
     }
 
-    next()
+    next();
 
 }
